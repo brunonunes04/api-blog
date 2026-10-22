@@ -16,7 +16,7 @@ public class DataUtils {
     @Autowired
     PostRepository postRepository;
 
-    //@PostConstruct
+    @PostConstruct
     public void savePosts(){
 
                 List<PostModel> postList = new ArrayList<>();
