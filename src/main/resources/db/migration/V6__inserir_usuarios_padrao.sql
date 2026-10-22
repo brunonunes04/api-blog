@@ -1,0 +1,5 @@
+INSERT INTO usuario (username, password, role, enabled)
+VALUES ('admin', '$2a$10$n1lfxhnn6/lFUhkgyg3XaOMD914fh/s/OmK86DUIC5VL4h.YM9ww2', 'ADMIN', TRUE);
+
+INSERT INTO usuario (username, password, role, enabled)
+VALUES ('USUARIO', '$2a$10$xKaT.KuoMyWc6d6uNdyHdO1RimIUuEh0oUqf9rJIE4iJibAIDlexi', 'USER', TRUE);
